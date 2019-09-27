@@ -9,12 +9,11 @@
 body {
     width: 100%;
     margin: 1px;
-    background: black;
+    background: #575757;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
-    background-image: url("welding.jpg");
-    background-size: cover;
+
 }
 .special-float-fixed {
     display: inline-flex;
@@ -47,8 +46,8 @@ main {
     display: inline-flex;
     width: 100%;
     top: 5vh;
-    background-color: #e7f2f3;
-    color: purple;
+    background-color: rgba(222, 238, 243, 0.95);
+    color: black;
     text-shadow: 1px 1px 2px #dcddea;
     position: fixed;
     z-index: 4;
@@ -59,7 +58,7 @@ main {
         justify-content: center;
         font-weight: bold;
         margin: 2vw;
-        text-shadow: 1px 1px 1px #dcddea;
+        text-shadow: 1px 1px #b4e5ec;
     }
 
 picture {
