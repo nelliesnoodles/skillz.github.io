@@ -23,7 +23,7 @@ body {
     justify-items: center;
     background-color: rgba(18, 48, 74, 0.48);
     color: #f3f3f7f7;
-    height: 15vh;
+    height: auto;
     overflow: visible;
 }
     .special-float-fixed h1 {
@@ -32,7 +32,7 @@ body {
         width: 100vw;
         font-size: 5em;
         text-shadow: 1px 1px black;
-        
+
     }
 main {
     margin-top: 35px;
@@ -67,7 +67,7 @@ main {
     background-image: url("welding.jpg");
     background-size: cover;
     transform: rotate3d(1, 1, 1, 20deg);
-   
+
 }
 .image_2_mid_left {
     position: relative;
