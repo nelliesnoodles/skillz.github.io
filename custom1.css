@@ -69,7 +69,7 @@ picture {
     position: absolute;
     margin: 0;
     z-index: 3;
-    top: -10vh;
+    top: -5vh;
     left: 25vw;
     height: 50vh;
     width: 40vw;
@@ -84,7 +84,7 @@ picture {
     position: relative;
     margin: 0;
     z-index: 2;
-    top: 5vh;
+    top: 15vh;
     left: 25vw;
     height: 45vh;
     width: 50vw;
@@ -97,7 +97,7 @@ picture {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: 15vh;
+    top: 20vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
@@ -112,7 +112,7 @@ picture {
   position: relative;
   z-index: 3;
   margin: 0;
-  top: 20vh;
+  top: 25vh;
   left: 25vw;
   height: 50vh;
   width: 45vw;
@@ -127,7 +127,7 @@ picture {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: 28vh;
+    top: 32vh;
     left: 25vw;
     height: 40vh;
     width: 45vw;
@@ -142,7 +142,7 @@ picture {
 .image_5_bottom_right {
     position: relative;
     z-index: 2;
-    top: 35vh;
+    top: 40vh;
     left: 25vw;
     height: 60vh;
     width: 30vw;
@@ -157,7 +157,7 @@ picture {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: 40vh;
+    top: 45vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
