@@ -13,7 +13,7 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
-    background-image: url("background-canvas-close-up-917480.jpg");
+    background-image: url("black-and-white-cogs-gears-159298.jpg");
     background-size: cover;
 }
 .special-float-fixed {
@@ -97,7 +97,7 @@ main {
     height: 50vh;
     background-image: url("painting.jpg");
     background-size: cover;
-    opacity: 0.6;
+    opacity: 1.0;
     border: 6px solid pink;
 }
 .image_4_bottom_left {
