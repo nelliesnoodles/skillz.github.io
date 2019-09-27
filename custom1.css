@@ -98,11 +98,11 @@ picture {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: 10vh;
+    top: 15vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
-    background-image: url("painting.jpg");
+    background-image: url("black-and-white-cogs-gears-159298.jpg");
     background-size: cover;
     opacity: 1.0;
     border: 1px solid black;
@@ -113,7 +113,7 @@ picture {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: 15vh;
+    top: 25vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
@@ -128,7 +128,7 @@ picture {
 .image_5_bottom_right {
     position: relative;
     z-index: 2;
-    top: 25vh;
+    top: 35vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
@@ -137,4 +137,20 @@ picture {
     transform: rotate3d(1, 1, 1, 20deg);
     opacity: 1.0;
     border: 1px solid black;
+}
+
+.image_6_top_left {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    top: 35vh;
+    left: 25vw;
+    height: 40vh;
+    width: 50vw;
+    background-image: url("painting.jpg");
+    background-size: cover;
+    opacity: 1.0;
+    border: 1px solid black;
+    transform: rotate3d(1, 1, 1, -18deg);
+
 }
