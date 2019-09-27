@@ -1,0 +1,120 @@
+﻿/*CSS stylesheet for Skillz prototype website by Nellie Tobey*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: black;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    background-image: linear-gradient(90deg, rgb(226, 225, 237) 0%, rgba(166, 166, 201, 0.863) 53%, rgb(93, 85, 110) 100%);
+}
+.special-float-fixed {
+    display: inline-flex;
+    position: fixed;
+    z-index: 4;
+    width: 100vw;
+    margin-top: 5vh;
+    align-content: center;
+    justify-items: center;
+    background-color: rgba(18, 48, 74, 0.48);
+    color: #f3f3f7f7;
+    height: 15vh;
+    overflow: visible;
+}
+    .special-float-fixed h1 {
+        font-weight: bold;
+        text-align: center;
+        width: 100vw;
+        font-size: 5em;
+        text-shadow: 1px 1px black;
+        
+    }
+main {
+    margin-top: 35px;
+}
+
+.floating-nav {
+    display: inline-flex;
+    width: 100vw;
+    top: 5vh;
+    background-color: #e7f2f3;
+    color: purple;
+    text-shadow: 1px 1px 2px #dcddea;
+    position: fixed;
+    z-index: 4;
+}
+
+    .floating-nav a {
+        text-align: center;
+        justify-content: center;
+        font-weight: bold;
+        margin: 2vw;
+        text-shadow: 1px 1px 1px #dcddea;
+    }
+.image_1_top_right {
+    position: absolute;
+    margin: 0;
+    z-index: 2;
+    top: -5px;
+    left: 50vw;
+    height: 75vh;
+    width: 75vh;
+    background-image: url("welding.jpg");
+    background-size: cover;
+    transform: rotate3d(1, 1, 1, 20deg);
+   
+}
+.image_2_mid_left {
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    top: -10vh;
+    left: 20vw;
+    height: 500px;
+    width: 600px;
+    background-image: url("design-embroidery-pattern-65063.jpg");
+    transform: rotate3d(1, 1, 1, -20deg);
+    border: 6px solid rgb(100, 200, 50);
+}
+.image_3_top_left {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    top: -10px;
+    left: 10px;
+    width: 40vw;
+    height: 50vh;
+    background-image: url("painting.jpg");
+    background-size: cover;
+    opacity: 0.6;
+}
+.image_4_bottom_left {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    top: -20vh;
+    left: 10px;
+    width: 40vw;
+    height: 50vh;
+    background-image: url("blur-blurry-coffee-273222.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+
+.image_5_bottom_right {
+    position: relative;
+    z-index: 2;
+    top: -80vh;
+    left: 50vw;
+    width: 50vw;
+    height: 100vh;
+    background-image: url("adult-blur-camera-598917.jpg");
+    background-size: cover;
+    transform: rotate3d(1, 1, 1, 10deg);
+    opacity: 0.8;
+}
