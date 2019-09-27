@@ -102,7 +102,7 @@ picture {
 }
 .image_3_top_left {
     position: relative;
-    z-index: 3;
+    z-index: 1;
     margin: 0;
     top: 20vh;
     left: 25vw;
@@ -127,12 +127,12 @@ picture {
   background-size: cover;
   opacity: 1.0;
   border: 1px solid black;
-  transform: rotate3d(1, 1, 1, -22deg);
+  transform: rotate3d(1, 1, 1, 22deg);
 
 }
 .image_4_bottom_left {
     position: relative;
-    z-index: 3;
+    z-index: 2;
     margin: 0;
     top: 32vh;
     left: 25vw;
@@ -148,10 +148,10 @@ picture {
 
 .image_5_bottom_right {
     position: relative;
-    z-index: 2;
-    top: 40vh;
+    z-index: 1;
+    top: 20vh;
     left: 25vw;
-    height: 80vh;
+    height: 100vh;
     width: 40vw;
     background-image: url("adult-blur-camera-598917.jpg");
     background-size: cover;
