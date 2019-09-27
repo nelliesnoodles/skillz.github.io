@@ -89,6 +89,7 @@ picture {
     height: 45vh;
     width: 50vw;
     background-image: url("design-embroidery-pattern-65063.jpg");
+    background-size: cover;
     transform: rotate3d(1, 1, 1, -20deg);
     border: 1px solid black;
 
