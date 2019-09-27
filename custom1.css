@@ -122,7 +122,7 @@ main {
     width: 50vw;
     height: 100vh;
     background-image: url("adult-blur-camera-598917.jpg");
-    background-size: cover;
+    background-size: contain;
     transform: rotate3d(1, 1, 1, 10deg);
     opacity: 1.0;
     border: 5px solid white;
