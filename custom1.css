@@ -38,8 +38,9 @@ body {
         font-weight: bold;
         text-align: center;
         width: 100vw;
-        font-size: 5em;
+        font-size: 3.5em;
         text-shadow: 1px 1px #b4e5ec;
+        margin: 0;
 
     }
 main {
@@ -51,6 +52,7 @@ main {
 .floating-nav {
     display: inline-flex;
     width: 100%;
+    font-size: 16px;
     top: 5vh;
     background-color: rgba(222, 238, 243, 0.95);
     color: black;
