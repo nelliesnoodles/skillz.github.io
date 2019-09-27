@@ -13,7 +13,7 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
-    background-image: url("black-and-white-cogs-gears-159298.jpg");
+    background-image: url("cargo-cargo-container-colorful-163726.jpg");
     background-size: cover;
 }
 .special-float-fixed {
@@ -24,8 +24,8 @@ body {
     margin-top: 5vh;
     align-content: center;
     justify-items: center;
-    background-color: rgba(18, 48, 74, 0.48);
-    color: #f3f3f7f7;
+    background-color: rgba(222, 238, 243, 0.65);
+    color: black;
     height: auto;
     overflow: visible;
 }
@@ -34,7 +34,7 @@ body {
         text-align: center;
         width: 100vw;
         font-size: 5em;
-        text-shadow: 1px 1px black;
+        text-shadow: 1px 1px #b4e5ec;
 
     }
 main {
