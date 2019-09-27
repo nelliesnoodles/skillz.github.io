@@ -85,7 +85,7 @@ picture {
     position: relative;
     margin: 0;
     z-index: 2;
-    top: -15vh;
+    top: 5vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
@@ -98,7 +98,7 @@ picture {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: -20vh;
+    top: 10vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
@@ -113,7 +113,7 @@ picture {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: -25vh;
+    top: 15vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
@@ -128,7 +128,7 @@ picture {
 .image_5_bottom_right {
     position: relative;
     z-index: 2;
-    top: -30vh;
+    top: 25vh;
     left: 25vw;
     height: 40vh;
     width: 50vw;
