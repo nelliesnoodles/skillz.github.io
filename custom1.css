@@ -62,7 +62,7 @@ main {
 .image_1_top_right {
     position: absolute;
     margin: 0;
-    z-index: 2;
+    z-index: 1;
     top: -5px;
     left: 50vw;
     height: 75vh;
@@ -75,7 +75,7 @@ main {
 .image_2_mid_left {
     position: relative;
     margin: 0;
-    z-index: 1;
+    z-index: 2;
     top: -10vh;
     left: 20vw;
     height: 500px;
