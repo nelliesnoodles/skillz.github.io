@@ -72,7 +72,8 @@ main {
     background-image: url("welding.jpg");
     background-size: cover;
     transform: rotate3d(1, 1, 1, 20deg);
-    border: 3px solid aqua;
+    border: 1px solid black;
+
 
 }
 .image_2_mid_left {
@@ -85,7 +86,8 @@ main {
     width: 50vw;
     background-image: url("design-embroidery-pattern-65063.jpg");
     transform: rotate3d(1, 1, 1, -20deg);
-    border: 6px solid rgb(100, 200, 50);
+    border: 1px solid black;
+
 }
 .image_3_top_left {
     position: relative;
@@ -98,7 +100,8 @@ main {
     background-image: url("painting.jpg");
     background-size: cover;
     opacity: 1.0;
-    border: 6px solid pink;
+    border: 1px solid black;
+
 }
 .image_4_bottom_left {
     position: relative;
@@ -111,7 +114,8 @@ main {
     background-image: url("blur-blurry-coffee-273222.jpg");
     background-size: cover;
     opacity: 1;
-    border: 3px solid black;
+    border: 1px solid black;
+
 }
 
 .image_5_bottom_right {
@@ -125,5 +129,5 @@ main {
     background-size: contain;
     transform: rotate3d(1, 1, 1, 10deg);
     opacity: 1.0;
-    border: 5px solid white;
+    border: 1px solid black;
 }
