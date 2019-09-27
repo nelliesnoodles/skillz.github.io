@@ -8,6 +8,7 @@
 
 body {
     width: 100%;
+    margin: 1px;
     background: black;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
