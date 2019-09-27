@@ -65,10 +65,10 @@ main {
     position: absolute;
     margin: 0;
     z-index: 3;
-    top: 10vh;
-    left: 50vw;
-    height: 100vh;
-    width: 75vh;
+    top: -10vh;
+    left: 25vw;
+    height: 40vh;
+    width: 50vw;
     background-image: url("welding.jpg");
     background-size: cover;
     transform: rotate3d(1, 1, 1, 20deg);
@@ -81,7 +81,7 @@ main {
     margin: 0;
     z-index: 2;
     top: -10vh;
-    left: 20vw;
+    left: 25vw;
     height: 40vh;
     width: 50vw;
     background-image: url("design-embroidery-pattern-65063.jpg");
@@ -93,10 +93,10 @@ main {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: -10px;
-    left: 10px;
-    width: 40vw;
-    height: 50vh;
+    top: -10vh;
+    left: 25vw;
+    height: 40vh;
+    width: 50vw;
     background-image: url("painting.jpg");
     background-size: cover;
     opacity: 1.0;
@@ -107,10 +107,10 @@ main {
     position: relative;
     z-index: 3;
     margin: 0;
-    top: -20vh;
-    left: 10px;
-    width: 40vw;
-    height: 50vh;
+    top: -10vh;
+    left: 25vw;
+    height: 40vh;
+    width: 50vw;
     background-image: url("blur-blurry-coffee-273222.jpg");
     background-size: cover;
     opacity: 1;
@@ -121,10 +121,10 @@ main {
 .image_5_bottom_right {
     position: relative;
     z-index: 2;
-    top: -80vh;
-    left: 50vw;
+    top: -10vh;
+    left: 25vw;
+    height: 40vh;
     width: 50vw;
-    height: 100vh;
     background-image: url("adult-blur-camera-598917.jpg");
     background-size: contain;
     transform: rotate3d(1, 1, 1, 10deg);
