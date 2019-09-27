@@ -145,10 +145,10 @@ picture {
     z-index: 2;
     top: 40vh;
     left: 25vw;
-    height: 60vh;
-    width: 30vw;
+    height: 80vh;
+    width: 40vw;
     background-image: url("adult-blur-camera-598917.jpg");
-    background-size: contain;
+    background-size: cover;
     transform: rotate3d(1, 1, 1, 20deg);
     opacity: 1.0;
     border: 1px solid black;
