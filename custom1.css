@@ -19,7 +19,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: 16px;
     overflow: auto;
-
+    font-family: 'Exo 2', sans-serif;
 }
 .special-float-fixed {
     display: inline-flex;

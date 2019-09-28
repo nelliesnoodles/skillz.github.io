@@ -1,0 +1,44 @@
+﻿/*website policy css*/
+/* color theme: Oranges  & blues */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("cargo-cargo-container-colorful-163726.jpg");
+    background-color: darkslateblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    overflow: auto;
+    font-family: 'Exo 2', sans-serif;
+}
+.head-title{
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 2px 1px 1px orange;
+    justify-content: center;
+    text-align: center;
+    top-margin: 5vh;
+    border: 1px groove silver;
+    background-color: black;
+}
+main {
+    background-color: #1c144c;
+    margin: 5% 10% 10% 10%;
+    padding: 5%;
+    justify-content: center;
+}
+p {
+    justify-content: center;
+    font-size: 16px;
+    padding: 5px;
+    color: honeydew;
+    text-shadow: 1px 1px black;
+}
+h1, h2, h3, h4, h5 {
+    color:aliceblue;
+    text-shadow: 1px 1px 1px orange;
+}
