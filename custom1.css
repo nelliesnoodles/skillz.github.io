@@ -1,15 +1,43 @@
 ﻿/*CSS stylesheet for Skillz prototype website by Nellie Tobey*/
 
-* {
+*, *:before, *:after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 html {
   margin: 0;
   padding: 0;
 }
+@media all and (max-width: 799px) {
 
+    .floating-nav {
+        display: inline-flex;
+        flex-direction:column;
+        margin-bottom: 1vh;
+        width: 60%;
+        font-size: 10px;
+        top: 15vh;
+        background-color: rgba(222, 238, 243, 0.95);
+        color: black;
+        text-shadow: 1px 1px 2px #dcddea;
+        position: fixed;
+        z-index: 10;
+        overflow: hidden;
+    }
+
+   .floating-nav a {
+        text-align: center;
+        justify-content: center;
+        font-weight: lighter;
+        margin: 1vw;
+        text-shadow: 1px 1px #b4e5ec;
+    }
+
+    
+
+}
+/*
 body {
     border: 20px solid aliceblue;
     width: 100%;
@@ -21,45 +49,94 @@ body {
     overflow: auto;
     font-family: 'Exo 2', sans-serif;
 }
+    */
+/*  from website policy*/
+body {
+    background: url("cargo-cargo-container-colorful-163726.jpg");
+    background-color: darkslateblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    overflow: auto;
+    font-family: 'Exo 2', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #1c144c;
+    margin: 5% 10% 10% 10%;
+    padding: 0;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+    color: aliceblue;
+    text-shadow: 1px 1px 1px orange;
+}
+
+.head-title {
+    display: flex;
+    font-size: 3.5em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    z-index: 5;
+    text-shadow: 2px 1px 1px orange;
+    justify-content: center;
+    text-align: center;
+    border: 1px groove silver;
+    background-color: black;
+    
+}
+/*End from policy*/
+
 .special-float-fixed {
     display: inline-flex;
     position: fixed;
-    z-index: 4;
-    width: 100%;
-    margin-top: 5vh;
+    z-index: 5;
+    width: 60%;
+    margin-top: 15vh;
     align-content: center;
     justify-items: center;
-    background-color: rgba(222, 238, 243, 0.65);
-    color: black;
+    background-color: black;
+    color: white;
     height: auto;
     overflow: visible;
+    opacity: 0.8;
 }
     .special-float-fixed h1 {
         font-weight: bold;
         text-align: center;
-        width: 100vw;
-        font-size: 3.5em;
-        text-shadow: 1px 1px #b4e5ec;
+        justify-items: center;
+        font-size: 2.5em;
+        text-shadow: 1px 1px orange;
         margin: 0;
+        opacity: 1;
 
     }
+    /*
 main {
     display: inline-block;
     margin-top: 35px;
     width: 100%;
 }
+        */
 
 .floating-nav {
     display: inline-flex;
-    width: 100%;
+    width: 60%;
     font-size: 16px;
-    top: 5vh;
+    top: 15vh;
     background-color: rgba(222, 238, 243, 0.95);
     color: black;
     text-shadow: 1px 1px 2px #dcddea;
     position: fixed;
     z-index: 4;
 }
+
 
     .floating-nav a {
         text-align: center;
@@ -76,9 +153,9 @@ picture {
 .image_1_top_right {
     position: absolute;
     margin: 0;
-    z-index: 3;
-    top: -5vh;
-    left: 25vw;
+    z-index: 2;
+    top: 20vh;
+    left: 5vw;
     height: 50vh;
     width: 40vw;
     background-image: url("welding.jpg");
@@ -92,8 +169,8 @@ picture {
     position: relative;
     margin: 0;
     z-index: 2;
-    top: 15vh;
-    left: 25vw;
+    top: 40vh;
+    left: 20vw;
     height: 45vh;
     width: 50vw;
     background-image: url("design-embroidery-pattern-65063.jpg");
@@ -107,14 +184,14 @@ picture {
     z-index: 1;
     margin: 0;
     top: 20vh;
-    left: 25vw;
-    height: 40vh;
-    width: 50vw;
+    left: 50vw;
+    height: 50vh;
+    width: 60vw;
     background-image: url("black-and-white-cogs-gears-159298.jpg");
     background-size: cover;
     opacity: 1.0;
     border: 1px solid black;
-    transform: rotate3d(1, 1, 1, 10deg);
+    transform: skew(-30deg, 20deg);
 
 }
 .image_3a {
@@ -137,7 +214,7 @@ picture {
     z-index: 2;
     margin: 0;
     top: 32vh;
-    left: 25vw;
+    left: 5vw;
     height: 40vh;
     width: 45vw;
     background-image: url("blur-blurry-coffee-273222.jpg");
