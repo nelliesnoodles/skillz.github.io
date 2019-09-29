@@ -21,11 +21,10 @@ html {
         font-size: 12px;
         top: 24vh;
         background-color: rgba(222, 238, 243, 0.95);
-        color: black;
+        box-shadow: 10px 10px #43345657;
         text-shadow: 1px 1px 2px #dcddea;
         position: fixed;
         z-index: 5;
-        
     }
 
 
@@ -170,14 +169,14 @@ main {
 
 .floating-nav {
     display: inline-flex;
-    flex: 1 1 auto;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     width: 60%;
-    height: 3.5em;
+    height: 30vh;
     font-size: 16px;
     top: 23vh;
     background-color: rgba(222, 238, 243, 0.95);
-    color: black;
+    box-shadow: 10px 10px #43345657;
     text-shadow: 1px 1px 2px #dcddea;
     position: fixed;
     z-index: 5;
@@ -186,12 +185,14 @@ main {
 
     .floating-nav a {
         text-align: center;
-        justify-content: center;        
+        justify-content: center;
+        align-items: center;
         font-weight: bold;
         text-shadow: 1px 1px #b4e5ec;
         transition: transform .3s;
         position: fixed;
         text-decoration: none;
+        padding: 10px;
     }
 #nav_1 {
     left: 15vw;
@@ -210,11 +211,11 @@ main {
 }
 
 a:hover {
-        transform: scale(1.5);
-        text-shadow: -1px -1px 2px orange;
-        z-index: 5;
-        position: fixed;
-    }
+    transform: scale(1.5);
+    text-shadow: -1px -1px 1px #efd9f7;
+    z-index: 5;
+    position: fixed;
+}
 
 
 .dropdown-content {
@@ -243,9 +244,8 @@ picture {
     background-image: url("welding.jpg");
     background-size: cover;
     transform: rotate3d(1, 1, 1, 20deg);
-    border: 1px solid black;
-
-
+    box-shadow: -10px 5px 5px #271c388c;
+    border: 1px solid #ec7b55;
 }
 .image_2_mid_left {
     position: relative;
@@ -258,8 +258,8 @@ picture {
     background-image: url("design-embroidery-pattern-65063.jpg");
     background-size: cover;
     transform: rotate3d(1, 1, 1, -20deg);
-    border: 1px solid black;
-
+    box-shadow: -10px 5px 5px #271c388c;
+    border: 1px solid #ec7b55;
 }
 .image_3_top_left {
     position: relative;
@@ -272,24 +272,24 @@ picture {
     background-image: url("black-and-white-cogs-gears-159298.jpg");
     background-size: cover;
     opacity: 1.0;
-    border: 1px solid black;
+    border: 1px solid #ec7b55;
+    box-shadow: -10px 5px 5px #271c388c;
     transform: skew(-30deg, 20deg);
-
 }
 .image_3a {
-  position: relative;
-  z-index: 3;
-  margin: 0;
-  top: 25vh;
-  left: 25vw;
-  height: 50vh;
-  width: 45vw;
-  background-image: url("colorful-colors-colourful-48199.jpg");
-  background-size: cover;
-  opacity: 1.0;
-  border: 1px solid black;
-  transform: rotate3d(1, 1, 1, 22deg);
-
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    top: 25vh;
+    left: 25vw;
+    height: 60vh;
+    width: 60vw;
+    background-image: url("colorful-colors-colourful-48199.jpg");
+    background-size: cover;
+    opacity: 1.0;
+    border: 1px solid #ec7b55;
+    box-shadow: 10px 10px 5px #0f09198c;
+    transform: skew(20deg, 5deg);
 }
 .image_4_bottom_left {
     position: relative;
@@ -302,9 +302,9 @@ picture {
     background-image: url("blur-blurry-coffee-273222.jpg");
     background-size: cover;
     opacity: 1;
-    border: 1px solid black;
+    border: 1px solid #ec7b55;
+    box-shadow: -10px 5px 5px #271c388c;
     transform: rotate3d(1, 1, 1, -10deg);
-
 }
 
 .image_5_bottom_right {
@@ -317,8 +317,9 @@ picture {
     background-image: url("adult-blur-camera-598917-crop.jpg");
     background-size: cover;
     transform: rotate3d(1, 1, 1, 20deg);
+    box-shadow: -10px 5px 5px #271c388c;
     opacity: 1.0;
-    border: 1px solid black;
+    border: 1px solid #ec7b55;
 }
 
 .image_6_top_left {
@@ -332,9 +333,8 @@ picture {
     background-image: url("painting.jpg");
     background-size: cover;
     opacity: 1.0;
-    border: 1px solid black;
+    border: 1px solid #ec7b55;
     transform: rotate3d(1, 1, 1, -18deg);
-
 }
 
 
