@@ -11,30 +11,73 @@ html {
 }
 @media all and (max-width: 799px) {
 
+
     .floating-nav {
         display: inline-flex;
-        flex-direction:column;
-        margin-bottom: 1vh;
+        flex: 1 1 auto;
+        flex-direction: column;
         width: 60%;
-        font-size: 10px;
-        top: 15vh;
+        height: 4em;
+        font-size: 12px;
+        top: 24vh;
         background-color: rgba(222, 238, 243, 0.95);
         color: black;
         text-shadow: 1px 1px 2px #dcddea;
         position: fixed;
-        z-index: 10;
-        overflow: hidden;
+        z-index: 5;
+        
     }
 
-   .floating-nav a {
-        text-align: center;
-        justify-content: center;
-        font-weight: lighter;
-        margin: 1vw;
-        text-shadow: 1px 1px #b4e5ec;
-    }
+
+        .floating-nav a {
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;            
+            font-size: 10px;
+            font-weight: bold;            
+            text-shadow: 1px 1px #b4e5ec;
+            transition: transform .5s;
+            position: fixed;
+            text-decoration: none;
+        }
 
     
+
+    a:hover {
+        transform: scale(1.5);
+        text-shadow: -1px -1px 2px orange;
+        z-index: 5;
+        position: fixed;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+    }
+    #nav_1 {
+        top: 24vh;
+        left: 20vw;
+    }
+
+    #nav_2 {
+        top: 28vh;
+        left: 20vw;
+    }
+
+    #nav_3 {
+        top: 32vh;
+        left: 20vw;
+    }
+
+    #nav_4 {
+        top: 36vh;
+        left: 20vw;
+    }
+
+    #nav_5 {
+        top: 40vh;
+        left: 20vw;
+    }
 
 }
 /*
@@ -98,7 +141,7 @@ h1, h2, h3, h4, h5 {
     position: fixed;
     z-index: 5;
     width: 60%;
-    margin-top: 15vh;
+    top: 60vh;
     align-content: center;
     justify-items: center;
     background-color: black;
@@ -111,7 +154,7 @@ h1, h2, h3, h4, h5 {
         font-weight: bold;
         text-align: center;
         justify-items: center;
-        font-size: 2.5em;
+        font-size: 2em;
         text-shadow: 1px 1px orange;
         margin: 0;
         opacity: 1;
@@ -127,24 +170,63 @@ main {
 
 .floating-nav {
     display: inline-flex;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
     width: 60%;
+    height: 3.5em;
     font-size: 16px;
-    top: 15vh;
+    top: 23vh;
     background-color: rgba(222, 238, 243, 0.95);
     color: black;
     text-shadow: 1px 1px 2px #dcddea;
     position: fixed;
-    z-index: 4;
+    z-index: 5;
 }
 
 
     .floating-nav a {
         text-align: center;
-        justify-content: center;
+        justify-content: center;        
         font-weight: bold;
-        margin: 2vw;
         text-shadow: 1px 1px #b4e5ec;
+        transition: transform .3s;
+        position: fixed;
+        text-decoration: none;
     }
+#nav_1 {
+    left: 15vw;
+}
+#nav_2 {
+    left: 24vw;
+}
+#nav_3 {
+    left: 32vw;
+}
+#nav_4 {
+    left: 45vw;
+}
+#nav_5 {
+    left: 52vw;
+}
+
+a:hover {
+        transform: scale(1.5);
+        text-shadow: -1px -1px 2px orange;
+        z-index: 5;
+        position: fixed;
+    }
+
+
+.dropdown-content {
+    display: none;
+    z-index: 5;
+    top: 17vh;
+    position: fixed;
+    height: 50vh;
+    width: 100vw;
+    background-color: aliceblue;
+    border: solid 2px silver;
+}
 
 picture {
   margin: 10px;
@@ -156,7 +238,7 @@ picture {
     z-index: 2;
     top: 20vh;
     left: 5vw;
-    height: 50vh;
+    height: 100vh;
     width: 40vw;
     background-image: url("welding.jpg");
     background-size: cover;
@@ -227,12 +309,12 @@ picture {
 
 .image_5_bottom_right {
     position: relative;
-    z-index: 1;
+    z-index: 3;
     top: 20vh;
-    left: 25vw;
+    right: 10vw;
     height: 100vh;
     width: 40vw;
-    background-image: url("adult-blur-camera-598917.jpg");
+    background-image: url("adult-blur-camera-598917-crop.jpg");
     background-size: cover;
     transform: rotate3d(1, 1, 1, 20deg);
     opacity: 1.0;
@@ -253,4 +335,20 @@ picture {
     border: 1px solid black;
     transform: rotate3d(1, 1, 1, -18deg);
 
+}
+
+
+.dropdown-content {
+    display: none;
+    z-index: 5;
+    top: 17vh;
+    position: fixed;
+    height: 50vh;
+    width: 100vw;
+    background-color:aliceblue;
+    border: solid 2px silver;
+}
+
+.show {
+    display: flex;
 }
