@@ -9,6 +9,8 @@ html {
   margin: 0;
   padding: 0;
 }
+
+
 @media all and (max-width: 799px) {
 
 
@@ -77,6 +79,20 @@ html {
         top: 40vh;
         left: 20vw;
     }
+    .search {
+        left: 0;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    #search {
+        height: 75vh;
+    }
+        #search li {
+            text-shadow: 1px 1px #b4e5ec;
+            padding: 5px;
+            margin-top: 5px;
+        }
 
 }
 /*
@@ -118,6 +134,17 @@ h1, h2, h3, h4, h5 {
     text-shadow: 1px 1px 1px orange;
 }
 
+ul {
+    display: inline-block;
+    height: 75vh;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+}
+
 .head-title {
     display: flex;
     font-size: 3.5em;
@@ -138,7 +165,7 @@ h1, h2, h3, h4, h5 {
 .special-float-fixed {
     display: inline-flex;
     position: fixed;
-    z-index: 5;
+    z-index: 4;
     width: 60%;
     top: 60vh;
     align-content: center;
@@ -167,6 +194,14 @@ main {
 }
         */
 
+.hidden {
+    display: none;
+}
+.show {
+    display: flex;
+}
+
+
 .floating-nav {
     display: inline-flex;
     justify-content: center;
@@ -175,11 +210,15 @@ main {
     height: 30vh;
     font-size: 16px;
     top: 23vh;
-    background-color: rgba(222, 238, 243, 0.95);
+    background-color: rgb(222, 238, 243);
     box-shadow: 10px 10px #43345657;
     text-shadow: 1px 1px 2px #dcddea;
     position: fixed;
     z-index: 5;
+}
+
+.floating-nav .search {
+    z-index: 100;
 }
 
 
@@ -205,10 +244,62 @@ main {
 }
 #nav_4 {
     left: 45vw;
+    z-index: 100;
+   
 }
+    #nav_4 a {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        left: 44vw;
+        padding: 0px 10px 10px 10px;
+    }
+
 #nav_5 {
     left: 52vw;
 }
+
+.search {
+    display: none;
+    z-index: 100;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(222, 238, 243);
+}
+
+#search {
+    display: inline-block;
+    background-color: rgb(222, 238, 243);
+    z-index: 100;
+    top: 40vh;
+    left: 10vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    box-shadow: 10px 10px #43345657;
+    position: fixed;
+    list-style: none;
+    width: 60%;
+    text-wrap: wrap;
+}
+.search li {
+        text-shadow: 1px 1px #b4e5ec;
+        padding: 10px;
+        margin-top: 5px;
+        z-index: 100;
+    }
+   
+
+#nav_4:hover .special-float-fixed {
+    display: none;
+}
+
+#nav_4:hover .search{
+    display: inline;
+}
+
 
 a:hover {
     transform: scale(1.5);
@@ -313,7 +404,7 @@ picture {
     top: 20vh;
     right: 10vw;
     height: 100vh;
-    width: 40vw;
+    width: 60vw;
     background-image: url("adult-blur-camera-598917-crop.jpg");
     background-size: cover;
     transform: rotate3d(1, 1, 1, 20deg);
@@ -347,8 +438,4 @@ picture {
     width: 100vw;
     background-color:aliceblue;
     border: solid 2px silver;
-}
-
-.show {
-    display: flex;
 }
